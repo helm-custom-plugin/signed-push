@@ -36,12 +36,12 @@ elif [ $OS == "linux" ]; then
   cd $DIR'/signed-push/bin'; rm 'securepush.exe';
   echo 'export PATH=$PATH:'$DIR'/signed-push/bin' >> ~/.bashrc
   source ~/.bashrc
-  echo "Installed Successfully Done."
+  echo "Installation Successfully Done."
 else 
   cd $DIR'/signed-push/bin'; rm 'securepush.exe';
   echo 'export PATH=$PATH:'$DIR'/signed-push/bin' >> ~/.bashrc
   source ~/.bashrc
-  echo "Installed Successfully Done."
+  echo "Installation Successfully Done."
 fi
 
 #finish
